@@ -2,6 +2,8 @@
 practicing the principles of blockchain by doing it.
 
 
+![Blockchain](https://github.com/vivek-bombatkar/Blockchain-practice/blob/master/blocjchain.JPG)
+
 
 ### Quotes from internet, Blockchain is...
 
@@ -17,5 +19,6 @@ Each page in a book contains the text and information about itself
 
 ### Genesis vs regular block
 
+![regular block](https://github.com/vivek-bombatkar/Blockchain-practice/blob/master/regularBlock.JPG)
 
 ### Blockchain looks like to me...
