@@ -63,9 +63,13 @@ prev_block = bc[0]
 new_block = getNextBlock(prev_block)
 bc.append(new_block)
 ```
+
 ```bash
-[0 : 2017-12-24 18:50:10.277000, the genesis block, 0 ,
- 1 : 2017-12-24 18:50:10.277000, this is block # 1, adefd71a6d99e989ec041e9dbdd340a09f7f2be25835d5df865ea00531c5d867]
+for block in bc:
+    print block
+	
+0 : 2017-12-24 18:50:10.277000, the genesis block, 0 ,
+1 : 2017-12-24 18:50:10.277000, this is block # 1, adefd71a6d99e989ec041e9dbdd340a09f7f2be25835d5df865ea00531c5d867
 ```
 
 ```shell
@@ -80,3 +84,15 @@ for curr_block in range(1, len(bc)):
 
 
 ### Blockchain looks like to me...
+
+
+
+### Ethereum is ...
+... a blockchain system based on the concepts of bitcoin.
+It is considered a second generation blockchain technology that was designed to let any person, with a basic level of computer skills, to develop and deploy their own decentralized applications on the Blockchain.
+
+Smart contracts are autonomous computer systems, written in code, that manage executions between individuals on the Blockchain.
+
+### My soruce for reading
+https://medium.com/blockchain-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093
+https://www.oreilly.com/ideas/understanding-the-blockchain
