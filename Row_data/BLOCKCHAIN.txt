@@ -1,0 +1,40 @@
+#https://github.com/JeremyRubin/BTCSpark 
+: python + spark
+
+#https://github.com/ZuInnoTe/hadoopcryptoledger/wiki 
+: scala libs to analyze BC in hadoop 
+: HIVE to store BC in HDFS
+
+
+
+
+THEORY
+>>>https://medium.com/blockchain-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093
+>>>
+https://www.oreilly.com/ideas/understanding-the-blockchain
+
+DATA
+https://etherscan.io/charts
+
+
+
+Quotes from internet, Blockchain is...
+
+a distributed database with a set of rules for verifying new additions to the database. 
+
+a digital ledger in which transactions made in bitcoin or another cryptocurrency are recorded chronologically and publicly.
+
+just a file.  A blockchain by itself is just a data structure.  That is, how data is logically put together and stored. 
+
+a book of pages. Blocks in a chain = pages in a book
+Each page in a book contains the text and information about itself
+
+Ethereum is a blockchain system based on the concepts of bitcoin.
+It is considered a second generation blockchain technology that was designed to let any person, with a basic level of computer skills, to develop and deploy their own decentralized applications on the Blockchain.
+
+Smart contracts are autonomous computer systems, written in code, that manage executions between individuals on the Blockchain.
+
+
+### KEYWORDS
+
+crypto ledgers
