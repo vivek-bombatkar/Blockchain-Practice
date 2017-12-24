@@ -33,7 +33,7 @@ class Block:
 
 ### Genesis vs regular block
 
-<img src="./pics/Howtheblockattach.JPG" width="624" height="322" />
+<img src="./pics/Howtheblockattach.JPG" width="500" height="250" />
 
 ```shell
 #this is a special block in the blockchain
