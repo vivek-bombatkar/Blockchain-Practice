@@ -1,8 +1,6 @@
 # Blockchain-practice
-practicing the principles of blockchain by doing it.
-
-
-![Blockchain](https://github.com/vivek-bombatkar/Blockchain-practice/blob/master/blocjchain.JPG)
+Understanding the basics of blockchain by doing it.
+Hands on excercise with various implementations of blockchain in Jupyter notebook.
 
 
 ### Quotes from internet, Blockchain is...
@@ -35,6 +33,8 @@ class Block:
 
 ### Genesis vs regular block
 
+![blocks](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howtheblockattach.JPG)
+
 ```shell
 def getGenesisBLock():
     return Block(0, date.datetime.now(), "the genesis block", "0")
@@ -49,9 +49,9 @@ def getNextBlock(prev_block):
     return Block(index, timestamp, data, hash)
 ```
 
-![regular block](https://github.com/vivek-bombatkar/Blockchain-practice/blob/master/regularBlock.JPG)
-
 ### The Blockchain
+
+![blockchain](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howtheblocksgetadded.JPG)
 
 ```shell
 bc = [getGenesisBLock()]
