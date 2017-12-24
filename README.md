@@ -36,11 +36,15 @@ class Block:
 ![blocks](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howtheblockattach.JPG)
 
 ```shell
+#this is a special block in the blockchain
+#as its the very first block, it could not have hash of previous block
 def getGenesisBLock():
     return Block(0, date.datetime.now(), "the genesis block", "0")
 ```
 
 ```shell
+#each consicutive block will holds the timestamp and the hash of the previous block
+#storing the hash of previous block is a way to maintain long chain on internet
 def getNextBlock(prev_block):
     index = prev_block.index + 1
     timestamp = date.datetime.now()
@@ -54,10 +58,12 @@ def getNextBlock(prev_block):
 ![blockchain](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howtheblocksgetadded.JPG)
 
 ```shell
+#create a blockchain with first block as Genesis block  
 bc = [getGenesisBLock()]
 ```
 
 ```shell
+#keep adding blocks
 prev_block = bc[0]
 
 new_block = getNextBlock(prev_block)
@@ -73,6 +79,8 @@ for block in bc:
 ```
 
 ```shell
+#the way to validate blochchain is simple; 
+#hash of previous block must be identical with current blocks 'previous block hash' field!
 for curr_block in range(1, len(bc)):
     prev_block = curr_block -1
     if bc[prev_block].hash == bc[curr_block].prev_hash:
@@ -83,11 +91,8 @@ for curr_block in range(1, len(bc)):
 ```
 
 
-### Blockchain looks like to me...
-
-
-
 ### Ethereum is ...
+![Ethereum](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howthebolckchainattached.JPG)
 ... a blockchain system based on the concepts of bitcoin.
 It is considered a second generation blockchain technology that was designed to let any person, with a basic level of computer skills, to develop and deploy their own decentralized applications on the Blockchain.
 
