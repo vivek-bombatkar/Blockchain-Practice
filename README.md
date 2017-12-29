@@ -14,6 +14,8 @@ Hands on excercise with various implementations of blockchain in Jupyter noteboo
 
 ... a book of pages. Blocks in a chain = pages in a book, each page in a book contains the text and information about itself
 
+![blockhain_basics](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/blockhain_basics.png)
+
 
 ### The Block
 
