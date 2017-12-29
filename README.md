@@ -14,7 +14,7 @@ Hands on excercise with various implementations of blockchain in Jupyter noteboo
 
 ... a book of pages. Blocks in a chain = pages in a book, each page in a book contains the text and information about itself
 
-<img src="./pics/blockhain_basics.png" width="300" height="200" />
+![blockhain_basics](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/blockhain_basics.png)
 
 
 ### The Block
@@ -95,7 +95,9 @@ for curr_block in range(1, len(bc)):
 
 
 ### Ethereum is ...
-![Ethereum](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/Howthebolckchainattached.JPG)
+
+<img src="./pics/Howthebolckchainattached.JPG" width="300" height="200" />
+
 ... a blockchain system based on the concepts of bitcoin.
 It is considered a second generation blockchain technology that was designed to let any person, with a basic level of computer skills, to develop and deploy their own decentralized applications on the Blockchain.
 
