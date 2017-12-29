@@ -96,7 +96,7 @@ for curr_block in range(1, len(bc)):
 
 ### Ethereum is ...
 
-<img src="./pics/Howthebolckchainattached.JPG" width="300" height="200" />
+<img src="./pics/Howthebolckchainattached.JPG" width="500" height="300" />
 
 ... a blockchain system based on the concepts of bitcoin.
 It is considered a second generation blockchain technology that was designed to let any person, with a basic level of computer skills, to develop and deploy their own decentralized applications on the Blockchain.
