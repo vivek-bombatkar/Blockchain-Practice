@@ -1,4 +1,4 @@
-![Logo of the project](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/blockchain.jpg)
+![Logo of the project](https://github.com/vivek-bombatkar/Blockchain-Practice/blob/master/pics/blockchain.JPG)
 # Blockchain-practice
 Understanding the basics of blockchain by doing it.
 Hands on excercise with various implementations of blockchain in Jupyter notebook.
