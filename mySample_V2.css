@@ -24,7 +24,7 @@ body {
 
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Arial, Arial, Arial,Arial, Arial;
+  font-family: Arial, Arial, Arial, Arial, Arial, Arial;
   font-weight: 400;
   color: #2A3F5F;
 }
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .example-container h5,
 .example-container h6 {
   font-weight: 300;
-  font-family: Arial, Arial, Arial, Arial,Arial, Arial;
+  font-family: Arial, Arial, Arial, Arial, Arial, Arial;
   color: rgb(50, 50, 50);
 }
 
