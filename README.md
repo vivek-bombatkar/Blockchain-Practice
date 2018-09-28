@@ -3,6 +3,7 @@
 Understanding the basics of blockchain by doing it.
 Hands on excercise with various implementations of blockchain in Jupyter notebook.
 
+> Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
 
 ### Quotes from internet, Blockchain is...
 
